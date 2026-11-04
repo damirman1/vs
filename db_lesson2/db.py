@@ -6,7 +6,6 @@ from psycopg.rows import dict_row
 
 load_dotenv()
 
-
 def connect_db():
     url = os.getenv("DATABASE_URL")
     if not url:
